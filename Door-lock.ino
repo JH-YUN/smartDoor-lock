@@ -1,3 +1,14 @@
+/////////////////////////////////////////
+NFC breakout Module
+-IRG to D12
+-RESET to D3
+-SCL to A5
+-SDA to A4
+
+Wifi Module
+-Rx to D5
+-Tx to D6
+/////////////////////////////////////////
 #include <Wire.h>
 #include <Adafruit_NFCShield_I2C.h>
 #include <Servo.h>

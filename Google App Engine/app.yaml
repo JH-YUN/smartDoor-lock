@@ -1,0 +1,20 @@
+runtime: php55
+api_version: 1
+
+handlers:
+- url: /register.php
+  script: register.php
+
+- url: /open.php
+  script: open.php
+
+- url: /.*
+  script: open.php
+
+env_variables:
+  # Replace project, instance, database, user and password with the values obtained
+  # when configuring your Cloud SQL instance.
+  #PASSWORD is Blank, don't change
+  MYSQL_DSN: mysql:unix_socket=/cloudsql/YOUR_GOOGLE SQL_INSTANCE CONNECT NAME;dbname=****
+  MYSQL_USER: ****
+  MYSQL_PASSWORD: ''

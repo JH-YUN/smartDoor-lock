@@ -1,2 +1,2 @@
 # smartDoor-lock
- Door-lock with arduino, Google App Engine and Android
+ Door-lock with arduino, Google App Engine

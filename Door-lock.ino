@@ -8,6 +8,9 @@ NFC breakout Module
 Wifi Module
 -Rx to D5
 -Tx to D6
+
+Servo motor
+-PWN to D11
 /////////////////////////////////////////
 #include <Wire.h>
 #include <Adafruit_NFCShield_I2C.h>

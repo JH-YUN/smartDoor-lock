@@ -1,4 +1,5 @@
 /////////////////////////////////////////
+/*
 NFC breakout Module
 -IRG to D12
 -RESET to D3
@@ -11,6 +12,10 @@ Wifi Module
 
 Servo motor
 -PWN to D11
+
+RGB
+-Blue to D9 // Or you can use the color you want
+*/
 /////////////////////////////////////////
 #include <Wire.h>
 #include <Adafruit_NFCShield_I2C.h>

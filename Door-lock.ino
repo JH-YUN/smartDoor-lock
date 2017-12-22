@@ -15,6 +15,8 @@ Servo motor
 
 RGB
 -Blue to D9 // Or you can use the color you want
+
+Button to D2
 */
 /////////////////////////////////////////
 #include <Wire.h>
@@ -29,7 +31,7 @@ SoftwareSerial Wifi(6,5); //RX,TX(5,6)
 #define DST_IP "www.YOUR_PROJECT_ID.appspot.com" //Google App Engine domain
 #define BLUE 9 //LED to indicate state
 
-#define BTN 2
+#define BTN 2 //Button to change state
 Adafruit_NFCShield_I2C NFC(IRQ, RESET);
 Servo servo;
 int state=0; //state info 0: usally state, 1: register state

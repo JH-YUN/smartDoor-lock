@@ -13,7 +13,7 @@ SoftwareSerial Wifi(6,5); //RX,TX(5,6)
 #define BTN 2
 Adafruit_NFCShield_I2C NFC(IRQ, RESET);
 Servo servo;
-int state=0; // 상태 정보 0: usally state, 1: register state
+int state=0; //state info 0: usally state, 1: register state
 volatile int b=0;
 void NFC_module(){  //NFC module setting
   servo.attach(11);
